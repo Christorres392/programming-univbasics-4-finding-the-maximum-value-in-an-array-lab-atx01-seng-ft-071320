@@ -1,4 +1,4 @@
-=begin
+
 def find_max_value(array)
   count = 0
   max_value = -1
@@ -10,14 +10,4 @@ def find_max_value(array)
   end
   max_value
 end
-=end
 
-def find_max_value(array)
-  max_value = -1
-  array.length.times do |index|
-    if max_value < array[index + 1]
-      max_value = array[index + 1]
-    end
-    max_value
-  end
-end
